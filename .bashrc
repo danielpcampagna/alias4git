@@ -8,7 +8,7 @@ alias gpl='git pull origin '
 alias gps='git push origin $(gbr)'
 alias gr='git reset -p .'
 alias grc='gm && gch -b $(grcdate) && gps'
-alias grcdate='rc/$(date +"%Y%m%d")'
+alias grcdate='echo rc/$(date +"%Y%m%d")'
 alias grc2='gpl $(grcdate) && npm version patch && gps'
 alias gs='git status'
 
